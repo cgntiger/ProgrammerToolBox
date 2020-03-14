@@ -1,8 +1,3 @@
-# 目录
-
-![image-20200315013304682](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200315013450.png)
-
-***
 ### 一、md文件上传到GitHub之后，图片不显示了？
 
 #### 1.1 原因
