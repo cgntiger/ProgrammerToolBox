@@ -89,9 +89,11 @@ https://blog.csdn.net/acmman/article/details/77621253
 
 
 
-步骤二：下载安装Picgo【2.2.0以上的版本】
+步骤二：下载安装Picgo（2.2.0以上的版本），Typora最新版
 
 Picgo 2.2.2版本，下载链接：https://www.lanzous.com/ia49ojg
+
+Typora 0.9.86 beta下载链接：https://www.lanzous.com/ia49pgj
 
 Picgo设置步骤（很坑，所以步骤我自己写吧）：
 
