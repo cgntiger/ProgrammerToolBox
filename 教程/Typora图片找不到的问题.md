@@ -17,7 +17,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 注意：如果该文章的图片也不显示，估计是我把图片都迁移到其他仓库了。可以访问下面的链接。内容相同！
 
-PDF文章链接：
+PDF文章链接：https://github.com/Caiguangnan/ProgrammerToolBox/blob/master/%E6%95%99%E7%A8%8B/Typora%E5%9B%BE%E7%89%87%E6%89%BE%E4%B8%8D%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98.pdf
 
 ***
 
