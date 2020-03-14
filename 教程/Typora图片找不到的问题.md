@@ -188,7 +188,7 @@ Picgo设置步骤（很坑，所以步骤我自己写吧）：
 
 ![20200314220019](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200314235032.png)
 
-![20200314220026](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200314235222.png)
+![image-20200315034829529](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200315034853.png)
 
 ⑥**上传所有本地文件（单文件）**：它会把文件中用到的图片重新上传一次，路径也改变一次。
 
