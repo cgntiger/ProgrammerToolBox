@@ -1,7 +1,8 @@
-**目录**
+# 目录
 
-[toc]
+![image-20200315013304682](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200315013450.png)
 
+***
 ### 一、md文件上传到GitHub之后，图片不显示了？
 
 #### 1.1 原因
@@ -183,7 +184,7 @@ Picgo设置步骤（很坑，所以步骤我自己写吧）：
   解决：关掉PicGo，等一会，再启动。再等一会，最后上传图片。
   ![20200314231903](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200314235339.png)
 
-#### 3.2 上传成功了，也显示了，但重新打开后，又不显示了？？？？
+#### 3.2 上传成功了，也显示了，但重新打开后，又不显示了？
 
 解决：应该是网速的原因，稍微等一下，或者做一下别的事情，过一会它就显示了。
 
