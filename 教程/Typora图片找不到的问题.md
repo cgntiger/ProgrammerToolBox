@@ -17,8 +17,6 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 注意：如果该文章的图片也不显示，估计是我把图片都迁移到其他仓库了。可以访问下面的链接。内容相同！
 
-PDF文章链接：https://github.com/Caiguangnan/ProgrammerToolBox/blob/master/%E6%95%99%E7%A8%8B/Typora%E5%9B%BE%E7%89%87%E6%89%BE%E4%B8%8D%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98.pdf
-
 ***
 
 
@@ -112,9 +110,15 @@ https://blog.csdn.net/acmman/article/details/77621253
 
 步骤二：下载安装Picgo（2.2.0以上的版本），Typora最新版
 
+Node下载链接：https://nodejs.org/zh-cn
+
 Picgo 2.2.2版本，下载链接：https://www.lanzous.com/ia49ojg
 
 Typora 0.9.86 beta下载链接：https://www.lanzous.com/ia49pgj
+
+注意：Node要下载并安装，可以规避很多错误，Picgo中产生的大部分问题，都是因为它没有装！
+
+
 
 Picgo设置步骤（很坑，所以步骤我自己写吧）：
 
@@ -198,6 +202,8 @@ Picgo设置步骤（很坑，所以步骤我自己写吧）：
 
 #### 3.1 如果上传不成功？
 
+- Node安装了没有？
+  下载地址：https://nodejs.org/zh-cn
 - PicGo可能自己改了Server端口号？
   解决：把它改过来，这个可能是个bug（毕竟是最新版，问题肯定会有的）
 - PicGo报错了？
@@ -208,7 +214,9 @@ Picgo设置步骤（很坑，所以步骤我自己写吧）：
 
 解决：
 
-1. 应该是网速的原因，稍微等一下，或者做一下别的事情，过一会它就显示了。（时间有可能很长！）
+1. 因为GitHub的分布式架构，分布式架构的服务器之间需要进行同步，同步需要的时间并不短！
+
+2. 应该是网速的原因，稍微等一下，或者做一下别的事情，过一会它就显示了。（时间有可能很长！）
 
    
 
