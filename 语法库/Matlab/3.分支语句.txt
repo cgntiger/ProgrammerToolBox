@@ -1,0 +1,73 @@
+一、分支语句
+1、if ... end 语句
+a = 10;
+% check the condition using if statement 
+   if a < 20 
+   % if condition is true then print the following 
+       fprintf('a is less than 20' );
+   end
+fprintf('value of a is : %d', a);
+
+2、if ... else ... end
+a = 100;
+% check the boolean condition 
+   if a < 20 
+        % if condition is true then print the following 
+       fprintf('a is less than 20' );
+   else
+       % if condition is false then print the following 
+       fprintf('a is not less than 20' );
+   end
+   fprintf('value of a is : %d', a);
+
+3、if...elseif...elseif...else...end语句
+查看W2Cschool文档
+if <expression 1>
+% Executes when the expression 1 is true 
+<statement(s)>
+elseif <expression 2>
+% Executes when the boolean expression 2 is true
+<statement(s)>
+Elseif <expression 3>
+% Executes when the boolean expression 3 is true 
+<statement(s)>
+else 
+%  executes when the none of the above condition is true 
+<statement(s)>
+end
+
+4、switch 语句
+grade = 'B';
+   switch(grade)
+   case 'A' 
+      fprintf('Excellent!
+' );
+   case 'B' 
+       fprintf('Well done
+' );
+   case 'C' 
+      fprintf('Well done
+' );
+   case 'D'
+      fprintf('You passed
+' );
+   
+   case 'F' 
+     fprintf('Better try again
+' );
+     
+   otherwise
+     fprintf('Invalid grade
+' );
+   end
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+1、while循环语法
+while <expression>
+   <statements>
+end
+
+2、for循环语法
+for index = values
+  <program statements>
+          ...
+end
+for循环：例子
+for a = [24,18,17,23,28]
+   disp(a)
+end

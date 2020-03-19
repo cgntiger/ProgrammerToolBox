@@ -1,0 +1,46 @@
+一、类型转换
+1、字符串-->整数数组【str：字符串】
+a = uint16(str)
+
+2、整数数组-->字符串【a：整数数组】
+b = char(a)
+
+二、常用函数
+1、strcat()		连接字符串【括号内可以有多个字符串变量】
+2、cellstr		函数将字符数组转换成字符串单元阵列
+3、disp('输出内容')	输出语句
+blanks		创建空白字符的字符串
+char		转换为字符数组 (字符串)
+iscellstr		确定输入是否是字符串的单元格数组
+ischar		确定项是否为字符数组
+sprintf		将数据格式化为字符串
+strjoin		将单元格数组中的字符串合并为单个字符串
+======识别、查找、替换=========
+ischar		确定项是否为字符数组
+isletter		按照字母次序的数组元素
+isspace		数组元素是空格字符
+isstrprop		确定字符串是否为指定类别
+sscanf		从字符串读取格式化数据
+strfind		在另一个字符串中找到一个字符串
+strrep		查找和替换字符串【strrep(a(8),str1,str2)：矩阵a的第八个位置，把str1替换成str2】
+strsplit		在指定分隔符处拆分字符串
+strtok		字符串的选定部分
+validatestring	检查文本字符串的有效性
+symvar		在表达式中确定符号变量
+regexp		匹配正则表达式 (区分大小写)
+regexpi		匹配正则表达式 (不区分大小写)
+regexprep		使用正则表达式替换字符串
+regexptranslate	将字符串转换为正则表达式
+======比较函数========
+strcmp		比较字符串 (区分大小写)
+strcmpi		比较字符串 (不区分大小写)
+strncmp		比较字符串的前 n 个字符 (区分大小写)
+strncmpi		比较字符串的前 n 个字符 (不区分大小写)
+======改变大小写=======
+deblank		清除字符串末尾的空格
+strtrim		删除字符串前后的空格
+lower		将字符串转换为小写
+upper		将字符串转换为大写
+strjust		对齐字符数组【右对齐，空格全部往左移】
+
+

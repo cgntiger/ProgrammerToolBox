@@ -1,0 +1,51 @@
+%一、导入数据
+%方式一【工作区变量的保存和加载】
+%保存工作区间的变量,A是变量名
+save A
+%加载mat数据文件中的数据【格式：mat、out】
+load A
+
+%方式二【importdata方式】
+importdata('A.mat')
+
+%方式三【Excle数据】
+  %先使用界面方式导入Excel，再使用save命令保存下来，方便下次使用
+
+%方式四【文本数据，并设置表头和分隔符】
+filename = 'weeklydata.txt';
+delimiterIn = ' ';
+headerlinesIn = 1;
+A = importdata(filename,delimiterIn,headerlinesIn);
+
+%二、导出数据
+%方式一：【save和dlmwrite方式】
+num_array = [ 1 2 3 4 ; 4 5 6 7; 7 8 9 0];
+save array_data1.out num_array -ASCII;
+type array_data1.out
+
+dlmwrite('array_data2.out', num_array, ' ');
+type array_data2.out
+
+%方式二：【普通方法】
+x = 0:10:100;
+y = [x; log(x)];
+ 
+% open a file for writing
+fid = fopen('logtable.txt', 'w');
+ 
+% Table Header
+fprintf(fid, 'Log     Function');
+ 
+% print values in column order
+% two values appear on each row of the file
+fprintf(fid, '%f    %f', y);
+fclose(fid);
+% display the file created
+type logtable.txt
+
+
+
+
+
+
+

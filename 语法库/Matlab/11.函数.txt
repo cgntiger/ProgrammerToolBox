@@ -1,0 +1,68 @@
+一、自定义函数
+1、语法
+function [out1,out2, ..., outN] = myfun(in1,in2,in3, ..., inN)
+案例：【选出最大的数字】
+function max = mymax(n1, n2, n3, n4, n5)
+%This function calculates the maximum of the
+% five numbers given as input
+max =  n1;
+if(n2 > max)
+    max = n2;
+end
+if(n3 > max)
+   max = n3;
+end
+if(n4 > max)
+    max = n4;
+end
+if(n5 > max)
+    max = n5;
+end
+
+二、匿名函数
+1、简述
+	它由一个单一的 MATLAB 表达式和任意数量的输入和输出参数。
+	在MATLAB命令行或在一个函数或脚本可以定义一个匿名函数。
+	这种方式，可以创建简单的函数，而不必为他们创建一个文件
+2、语法
+f = @(arglist)expression
+3、案例【输入x,n，输出x.^n的值】
+power = @(x, n) x.^n;
+
+三、嵌套函数
+1、例子
+function [x1,x2] = quadratic2(a,b,c)
+function disc  % nested function
+d = sqrt(b^2 - 4*a*c);
+end % end of function disc
+disc;
+x1 = (-b + d) / (2*a);
+x2 = (-b - d) / (2*a);
+end % end of function quadratic2
+
+
+四、说明
+1、help 命令：提示命令的使用方法
+2、一个文件可以有多个函数，但只有一个主要函数，主要函数名就是文件名
+例如：以下两个函数的文件，分别是主要函数和其他函数
+function [x1,x2] = quadratic(a,b,c)
+%this function returns the roots of 
+% a quadratic equation.
+% It takes 3 input arguments
+% which are the co-efficients of x2, x and the 
+%constant term
+% It returns the roots
+d = disc(a,b,c); 
+x1 = (-b + d) / (2*a);
+x2 = (-b - d) / (2*a);
+end % end of quadratic
+
+function dis = disc(a,b,c) 
+%function calculates the discriminant
+dis = sqrt(b^2 - 4*a*c);
+end % end of sub-function
+3、全局变量【可以在函数内的所有位置使用，在内部函数也可以】
+global TOTAL;
+TOTAL = 10;
+n = [34, 45, 25, 45, 33, 19, 40, 34, 38, 42];
+av = average(n)

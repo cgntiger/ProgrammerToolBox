@@ -1,0 +1,42 @@
+一、画函数图
+1、单个函数：
+	plot(3*x^2-8,x=-5..5,y=-10..15);		函数3*x^2-8，指定x和y的范围x[-5,5],y[-10,15]
+
+2、多个函数：
+	plot([cos(x), x^2], x = -1 .. 4, y = -4 .. 4)	函数cos(x)和 x^2
+	指定线的颜色：plot([cos(x), x^2], x = -1 .. 4, y = -4 .. 4, color = [blue, black])；
+
+二、描点
+1、单个点
+	plot([[2, 3]], style = point)		点坐标(2,3)
+2、多个点
+	plot([[2, 3], [-2, 3]], style = point)	点坐标(2,3),(-2,3)
+	plot([[2, 3], [-2, 3]], style = point, color = blue, symbol = circle)	点的颜色，形状为圆
+
+三、画线
+1、两点之间的线
+	plot([[2, 3], [-2, 3]], style = line)				两点之间的线
+
+四、点和线重叠在一起
+1、命令要一起执行
+	with(plots);
+	plot1 := plot([-3*x+5,9-x^2],x=-3..5,color=[green,red]);
+	plot2 := plot([[-1,8],[4,-7]],style=point,color=blue,symbol=circle);
+	display([plot1,plot2]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+1、图像的读取（图像转化成矩阵：三维矩阵，第三维有三列RGB值）
+	A = imread(filename,fmt)	filename：读取的文件名，fmt文件的格式
+
+2、图像的显示
+	imshow(I,[low high])		I：图像矩阵，[low high]：高于high的像素被显示成白色，低于low的像素被显示成黑色；介于它们之间的像素被按比例拉伸后显示为各种等级的灰色
+

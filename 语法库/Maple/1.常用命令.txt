@@ -1,0 +1,34 @@
+1、restart 				重启，即清空所有缓存变量
+2、?plot				?命令名，跳转到指定命令的帮助页面（英文版）
+3、exp(x)				表示e的x次方
+4、 n mod m;    			n 对 m 的整数的模运算 
+5、rand(a..b);  			调用 rand(a..b)返回一个程序, 它在调用时生成一个在范围[a, b]内的随机数 
+6、 abs(expr); 			当 expr 为实数时，返回其绝对值，当 expr 为复数时，返回复数的模. 
+7、sqrt()				平方根
+8、evalf(expr)			转化为浮点数，expr可以是一个分数
+9、Sum(k^2,k=1..n)=sum(k^2,k=1..n); 	求和函数
+10、add(k,k=1..100); 		计算有限序列的和，比如1..100的值
+11、expand(sin(x+y));     		展开表达式 
+12、 combine(expr);        		合并表达式 【只对 sin, cos 有效】
+13、方法内的'%'			表示获取上一次的计算结果
+14、evalc(%);    			求出上式的实部、虚部 				
+15、定义真正的函数
+	f:=x->a*x^2+b*x+c; 	需要用算子(也称箭头操作符):【代入：f(3)】
+	f:=(x,y)->x^2+y^2; 		多变量的函数定义【代入：f(2,5)】
+	 E:=()->exp(1); 		无变量的函数定义
+16、分段函数（ piecewise）
+	 abs(x)=piecewise(x>0,x,x=0,0,x<0,-x); 
+17、读写文件
+	mypts := [seq([(1/1000)*x, cos((1/100000)*x^2)], x = 1 .. 1000)]; 
+	writedata("e:\\data.txt", evalf(mypts));
+	dots := readdata("e:\\data.txt", 100);
+	plot(dots, style = line);
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+1、向量介绍
+     分为行向量和列向量，整行或整列【一维数组】
+
+2、向量的模【sqrt(sum(v.*v))】
+v = [1: 2: 20];
+sv = v.* v;     %the vector with elements 
+                % as square of v's elements
+dp = sum(sv);    % sum of squares -- the dot product
+mag = sqrt(dp);  % magnitude
+disp('Magnitude:'); disp(mag);
+
+3、点积【又称“数量积”。元素对应相乘，再相加】
+v1 = [2 3 4];
+v2 = [1 2 3];
+dp = dot(v1, v2);
+disp('Dot Product:'); disp(dp);
+
+4、建立等差元素向量【使用冒号】
+v = [1: 2: 20];
+sqv = v.^2;
+disp(v);disp(sqv);
+
+注意：
+1、标量：表示常数
+2、跟矩阵运算一样 ：转置、加法、减法、向量的拼接
+
+
+
