@@ -230,3 +230,15 @@ Picgo设置步骤（很坑，所以步骤我自己写吧）：
 
 
 
+
+
+文章GitHub账号昵称：“[时间的尘埃](https://github.com/Caiguangnan)”
+
+GitHub文章链接：[Typora图片找不到的问题](https://github.com/Caiguangnan/ProgrammerToolBox/blob/master/教程/Typora图片找不到的问题.md)
+
+以尊重作者的劳动成果。版权归原作者所有。
+
+未经允许，严禁转载。对非法转载者，作者保留采用法律手段追究的权利。 
+
+第三条本网站之声明以及其修改权、更新权及最终解释权均属“时间的尘埃”， 以上声明的解释权归“时间的尘埃”所有。
+
