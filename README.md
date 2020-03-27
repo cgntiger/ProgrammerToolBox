@@ -1,7 +1,7 @@
 # ProgrammerToolBox
 这是只属于程序员的工具箱，可以大大提高程序员的工作效率。
 
-下载地址：
+下载地址(zip)：
 码云同步仓库：https://gitee.com/cgntiger/ProgrammerToolBox
 
 注意公告：
