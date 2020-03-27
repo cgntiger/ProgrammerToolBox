@@ -1,6 +1,18 @@
 # ProgrammerToolBox
 这是只属于程序员的工具箱，可以大大提高程序员的工作效率。
 
+### 注意公告：
+
+1. 从2020/03/27日开始，已经决定要同步仓库到码云(https://gitee.com/cgntiger/ProgrammerToolBox) ，方便大家[下载](https://gitee.com/cgntiger/ProgrammerToolBox)！
+
+2. 原因是GitHub上传下载的速度实在太慢，还是用中国本地的码云比较爽！
+
+***
+
+
+
+
+
 # 目录
 
  * [一、项目介绍](https://github.com/Caiguangnan/ProgrammerToolBox#%E4%B8%80%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D)
@@ -10,8 +22,7 @@
        * [1.1.3 工具类](https://github.com/Caiguangnan/ProgrammerToolBox#113-%E5%B7%A5%E5%85%B7%E7%B1%BB)
        * [1.1.4 其他](https://github.com/Caiguangnan/ProgrammerToolBox#114-%E5%85%B6%E4%BB%96)
     * [1.2 语法库](https://github.com/Caiguangnan/ProgrammerToolBox#12-%E8%AF%AD%E6%B3%95%E5%BA%93)
- * [二、下载](https://github.com/Caiguangnan/ProgrammerToolBox#%E4%BA%8C%E4%B8%8B%E8%BD%BD)
- * [三、注意公告](https://github.com/Caiguangnan/ProgrammerToolBox#%E4%B8%89%E6%B3%A8%E6%84%8F%E5%85%AC%E5%91%8A)
+ * [二、下载（zip包）](https://github.com/Caiguangnan/ProgrammerToolBox#%E4%BA%8C%E4%B8%8B%E8%BD%BD)
 
 
 
@@ -71,10 +82,3 @@
 2. GitHub下载地址：https://github.com/Caiguangnan/ProgrammerToolBox/archive/master.zip
 
 
-
-
-
-### 三、注意公告：
-
-1. 从2020/03/27日开始，已经决定要同步仓库到码云(https://gitee.com/cgntiger/ProgrammerToolBox) ，方便大家下载！
-2. 原因是GitHub上传下载的速度实在太慢，还是用中国本地的码云比较爽！
