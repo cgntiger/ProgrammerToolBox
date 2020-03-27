@@ -11,7 +11,7 @@
        * [1.1.4 其他](https://github.com/Caiguangnan/ProgrammerToolBox#114-%E5%85%B6%E4%BB%96)
     * [1.2 语法库](https://github.com/Caiguangnan/ProgrammerToolBox#12-%E8%AF%AD%E6%B3%95%E5%BA%93)
  * [二、下载](https://github.com/Caiguangnan/ProgrammerToolBox#%E4%BA%8C%E4%B8%8B%E8%BD%BD)
- * 三、注意公告
+ * [三、注意公告](https://github.com/Caiguangnan/ProgrammerToolBox#%E4%B8%89%E6%B3%A8%E6%84%8F%E5%85%AC%E5%91%8A)
 
 
 
@@ -65,15 +65,12 @@
 
 
 
+### 二、下载（zip包）
+
+1. 推荐下载地址(码云同步仓库)：https://gitee.com/cgntiger/ProgrammerToolBox
+2. GitHub下载地址：https://github.com/Caiguangnan/ProgrammerToolBox/archive/master.zip
 
 
-
-
-### 二、下载
-
-下载地址(zip)：
-
-码云同步仓库：https://gitee.com/cgntiger/ProgrammerToolBox
 
 
 
