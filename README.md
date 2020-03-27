@@ -19,7 +19,7 @@
     * [1.1 教程库](https://github.com/Caiguangnan/ProgrammerToolBox#11-%E6%95%99%E7%A8%8B%E5%BA%93)
        * [1.1.1 提升效率类](https://github.com/Caiguangnan/ProgrammerToolBox#111-%E6%8F%90%E5%8D%87%E6%95%88%E7%8E%87%E7%B1%BB)
        * [1.1.2 编程语言类](https://github.com/Caiguangnan/ProgrammerToolBox#112-%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E7%B1%BB)
-       * [1.1.3 工具类](https://github.com/Caiguangnan/ProgrammerToolBox#113-%E5%B7%A5%E5%85%B7%E7%B1%BB)
+       * [1.1.3 软件帮助文档](https://github.com/Caiguangnan/ProgrammerToolBox#113-%E8%BD%AF%E4%BB%B6%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3)
        * [1.1.4 其他](https://github.com/Caiguangnan/ProgrammerToolBox#114-%E5%85%B6%E4%BB%96)
     * [1.2 语法库](https://github.com/Caiguangnan/ProgrammerToolBox#12-%E8%AF%AD%E6%B3%95%E5%BA%93)
  * [二、下载（zip包）](https://github.com/Caiguangnan/ProgrammerToolBox#%E4%BA%8C%E4%B8%8B%E8%BD%BDzip%E5%8C%85)
