@@ -3,7 +3,7 @@
 
 ### 注意公告：
 
-1. 从2020/03/27日开始，已经决定要同步仓库到码云(https://gitee.com/cgntiger/ProgrammerToolBox) ，方便大家[下载](https://gitee.com/cgntiger/ProgrammerToolBox)！
+1. 从2020/03/27日开始，已经决定要同步仓库到码云(https://gitee.com/cgntiger/ProgrammerToolBox) ，方便大家[下载](https://github.com/Caiguangnan/ProgrammerToolBox/#%E4%BA%8C%E4%B8%8B%E8%BD%BDzip%E5%8C%85)！
 2. 原因是GitHub上传下载的速度实在太慢，还是用中国本地的码云比较爽！
 
 ***
@@ -83,7 +83,7 @@
 
 ### 二、下载（zip包）
 
-1. 推荐下载地址(码云同步仓库)：https://gitee.com/cgntiger/ProgrammerToolBox
-2. GitHub下载地址：https://github.com/Caiguangnan/ProgrammerToolBox/archive/master.zip
+1. [推荐下载地址(码云同步仓库)](https://gitee.com/cgntiger/ProgrammerToolBox/repository/archive/master.zip)
+2. [GitHub下载地址](https://github.com/Caiguangnan/ProgrammerToolBox/archive/master.zip)
 
 
