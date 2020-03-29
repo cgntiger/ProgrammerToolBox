@@ -21,6 +21,8 @@
        * [1.1.3 软件帮助文档](https://github.com/Caiguangnan/ProgrammerToolBox#113-%E8%BD%AF%E4%BB%B6%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3)
        * [1.1.4 其他](https://github.com/Caiguangnan/ProgrammerToolBox#114-%E5%85%B6%E4%BB%96)
     * [1.2 语法库](https://github.com/Caiguangnan/ProgrammerToolBox#12-%E8%AF%AD%E6%B3%95%E5%BA%93)
+       - 1.2.1 编程类
+       - 1.2.2 其他
  * [二、下载（zip包）](https://github.com/Caiguangnan/ProgrammerToolBox#%E4%BA%8C%E4%B8%8B%E8%BD%BDzip%E5%8C%85)
 
 
@@ -72,10 +74,24 @@
 
 #### 1.2 语法库
 
-- [GitHub](https://github.com/Caiguangnan/ProgrammerToolBox/tree/master/%E8%AF%AD%E6%B3%95%E5%BA%93/GitHub)
-- [Maple](https://github.com/Caiguangnan/ProgrammerToolBox/tree/master/%E8%AF%AD%E6%B3%95%E5%BA%93/Maple)
-- [Matlab](https://github.com/Caiguangnan/ProgrammerToolBox/tree/master/%E8%AF%AD%E6%B3%95%E5%BA%93/Matlab)
+##### 1.2.1 编程类
+
+- Java
 - [Python 3 (基础+数据分析)](https://github.com/Caiguangnan/ProgrammerToolBox/tree/master/%E8%AF%AD%E6%B3%95%E5%BA%93/Python%203%20(%E5%9F%BA%E7%A1%80%2B%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90))
+- Python3 爬虫
+- R语言
+- [Matlab](https://github.com/Caiguangnan/ProgrammerToolBox/tree/master/%E8%AF%AD%E6%B3%95%E5%BA%93/Matlab)
+
+##### 1.2.2 其他
+
+- [GitHub](https://github.com/Caiguangnan/ProgrammerToolBox/tree/master/%E8%AF%AD%E6%B3%95%E5%BA%93/GitHub)
+
+- [Maple](https://github.com/Caiguangnan/ProgrammerToolBox/tree/master/%E8%AF%AD%E6%B3%95%E5%BA%93/Maple)
+
+  
+
+  
+
 
 
 
@@ -87,3 +103,7 @@
 2. [GitHub下载地址](https://github.com/Caiguangnan/ProgrammerToolBox/archive/master.zip)
 
 
+
+# 公众号
+
+![](https://gitee.com/cgntiger/blogImage/raw/master/img/20200330000947.jpg)
