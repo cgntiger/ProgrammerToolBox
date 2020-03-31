@@ -30,7 +30,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 比如：我在文件里面放了下面一张图片（雷神），但把md文件发给朋友的时候，图片就不能显示了。。。。。
 
-![20200314211822](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200314234412.jpg)
+![20200314234412](https://gitee.com/cgntiger/blogImage/raw/master/img/20200401032144.jpg)
 
 解决办法：
 
@@ -69,7 +69,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
 
 设置如下，每次传md文件给其他人的时候，需要把图片文件夹也一并压缩转发才行，记住勾选“优先使用相对路径”
 
-![20200314211823](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200314234533.png)
+<img src="https://gitee.com/cgntiger/blogImage/raw/master/img/20200401032158.png" alt="20200314234533" style="zoom:67%;" />
 
 #### 2.2  方案二：Tyora+PicGo+GitHub（实现免费图片服务器）
 
@@ -124,11 +124,11 @@ Picgo设置步骤（很坑，所以步骤我自己写吧）：
 
 ①右击，打开详细窗口
 
-![20200314211825](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200314234705.png)
+![20200314234705](https://gitee.com/cgntiger/blogImage/raw/master/img/20200401032232.png)
 
 ②设置图床
 
-![20200314211826](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200315000247.png)
+<img src="https://gitee.com/cgntiger/blogImage/raw/master/img/20200401032242.png" alt="20200315000247" style="zoom:67%;" />
 
 **配置以下内容**：
 
@@ -137,12 +137,12 @@ Picgo设置步骤（很坑，所以步骤我自己写吧）：
 - 设定分支名：这里写入分支名称，一般直接用`maser`即可。
 
 - 设定Token（任意一个令牌都可以）：在 GitHub 上生成一个 *token* 以便 PicGo 来操作我们的仓库，来到个人中心，选择 *Developer settings* 就能看到 *Personal access tokens*，我们在这里创建需要的 *token*
-  ![20200314211827](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200315000137.png)
+  <img src="https://gitee.com/cgntiger/blogImage/raw/master/img/20200401032301.png" alt="20200315000137" style="zoom:67%;" />
 
   点击 Generate new token 创建一个新 token，选择 repo，同时它会把包含其中的都会勾选上，我们勾选这些就可以了。然后拉到最下方点击绿色按钮，Generate token 即可。之后就会生成一个 *token* ，记得复制保存到其他地方，这个 *token* 只显示一次！！
 
 
-![20200314211828](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200314234836.png)
+![20200314234836](https://gitee.com/cgntiger/blogImage/raw/master/img/20200401032318.png)
 
 - 指定存储路径：一般写`/img`，会在设定的仓库中创建img文件夹，也可以取另外的名字。
 - 设定自定义域名（很坑）：格式（https://raw.githubusercontent.com/Github用户名/仓库名/分支名）
@@ -155,11 +155,11 @@ Picgo设置步骤（很坑，所以步骤我自己写吧）：
 
 有时候可能会上传不上，重启PicGo就可以了
 
-![20200314211829](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200314234903.png)
+<img src="https://gitee.com/cgntiger/blogImage/raw/master/img/20200401032332.png" alt="20200314234903" style="zoom:67%;" />
 
 上传成功！
 
-![20200314211830](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200314234925.png)
+<img src="https://gitee.com/cgntiger/blogImage/raw/master/img/20200401032347.png" alt="20200314234925" style="zoom: 80%;" />
 
 如果上传不成功？
 
@@ -174,7 +174,7 @@ Picgo设置步骤（很坑，所以步骤我自己写吧）：
 
 ④**Typora自动上传设置：**
 
-![20200314220033](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200314234944.png)
+<img src="https://gitee.com/cgntiger/blogImage/raw/master/img/20200401032411.png" alt="20200314234944" style="zoom:67%;" />
 
 单击“验证图片上传选项”
 
@@ -184,19 +184,19 @@ Picgo设置步骤（很坑，所以步骤我自己写吧）：
 
 - 需要监听的端口：36677
 
-![20200314220026](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200314235009.png)
+<img src="https://gitee.com/cgntiger/blogImage/raw/master/img/20200401032425.png" alt="20200314235009" style="zoom:67%;" />
 
 
 
 ⑤**PicGo设置Server**
 
-![20200314220019](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200314235032.png)
+<img src="https://gitee.com/cgntiger/blogImage/raw/master/img/20200401032440.png" alt="20200314235032" style="zoom: 80%;" />
 
-![image-20200315034829529](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200315034853.png)
+<img src="https://gitee.com/cgntiger/blogImage/raw/master/img/20200401032459.png" alt="20200315034853" style="zoom: 80%;" />
 
 ⑥**上传所有本地文件（单文件）**：它会把文件中用到的图片重新上传一次，路径也改变一次。
 
-![20200314212238](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200314235248.png)
+<img src="https://gitee.com/cgntiger/blogImage/raw/master/img/20200401032516.png" alt="20200314235248" style="zoom:80%;" />
 
 ### 三、常遇到的问题
 
@@ -208,7 +208,7 @@ Picgo设置步骤（很坑，所以步骤我自己写吧）：
   解决：把它改过来，这个可能是个bug（毕竟是最新版，问题肯定会有的）
 - PicGo报错了？
   解决：关掉PicGo，等一会，再启动。再等一会，最后上传图片。
-  ![20200314231903](https://raw.githubusercontent.com/Caiguangnan/ProgrammerToolBox/master/img/20200314235339.png)
+  ![20200314235339](https://gitee.com/cgntiger/blogImage/raw/master/img/20200401032531.png)
 
 #### 3.2 上传成功了，图片显示出来了，但重新打开后，又不显示了？
 
