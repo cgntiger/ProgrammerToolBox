@@ -3,8 +3,9 @@
 
 ### 注意公告：
 
-1. 从2020/03/27日开始，已经决定要同步仓库到码云(https://gitee.com/cgntiger/ProgrammerToolBox) ，方便大家[下载](https://github.com/Caiguangnan/ProgrammerToolBox/#%E4%BA%8C%E4%B8%8B%E8%BD%BDzip%E5%8C%85)！
-2. 原因是GitHub上传下载的速度实在太慢，还是用中国本地的码云比较爽！
+1. 建议大家下载整个项目再进行学习，因为该项目有很多图片元素（或者PDF文档之类的格式），GitHub加载图片元素又不行（即使我把图片上传到了码云）。
+2. 从2020/03/27日开始，已经决定要同步仓库到码云(https://gitee.com/cgntiger/ProgrammerToolBox) ，方便大家[下载](https://github.com/Caiguangnan/ProgrammerToolBox/#%E4%BA%8C%E4%B8%8B%E8%BD%BDzip%E5%8C%85)！
+3. 原因是GitHub上传下载的速度实在太慢，还是用中国本地的码云比较爽！
 
 ***
 
